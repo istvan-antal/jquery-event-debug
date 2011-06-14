@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="jquery-event-debug.js"></script>
+        <script src="https://getfirebug.com/firebug-lite-debug.js"></script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+
+        <a href="#test">Click here for an event</a>
+        <script>
+            $(function () {
+                $(document).trigger('foo');
+                $('a[href="#test"]').bind('click', function () {
+                    console.log('test');
+                });
+            });
+        </script>
+    </body>
+</html>
