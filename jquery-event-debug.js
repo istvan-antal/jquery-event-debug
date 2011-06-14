@@ -1,3 +1,12 @@
+/*!
+ * jQuery Event Debug Plugin v0.1
+ * http://www.istvan-antal.ro/jquery-event-debug.html
+ *
+ * Copyright 2011, Antal István Miklós
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://www.istvan-antal.ro/open-source.html
+ *
+ */
 (function () {
     var _trigger = jQuery.event.trigger,
         _handle = jQuery.event.handle;
